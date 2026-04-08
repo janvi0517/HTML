@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 5</title>
+</head>
+<body>
+    
+    <!-- tables -->
+    <!-- <tr> -> table rows -->
+    <!-- <th> -> table headings -->
+    <!-- <td> -> table data -->
+    <!-- <table border=""> -> border is the attribute of table for bordr line of table -->
+    <!-- <colspan> -> merging tow or more coloumns -->
+    <!-- <rowspan> -> merging tow or more rows -->
+    <!-- More table attribute -> cellpadding, align[center], cellspacing, width, border -->
+    
+    <h1><em>Food Table</em></h1>
+    <table border="4">
+        <tr> 
+            <th> Fruits </th>
+            <th> Vegies </th>
+            <th> Street Food </th>
+            <th> Ice-Cream </th>
+        </tr>
+
+        <tr>
+            <td>Mango</td>
+            <td>Tomato</td>
+            <td>Momos</td>
+            <td>Gulkand</td>
+        </tr>
+
+        <tr>
+            <td>Kiwi</td>
+            <td>Onion</td>
+            <td>Gupchup</td>
+            <td>Rajbhog</td>
+        </tr>
+
+        <tr>
+            <td>Apple</td>
+            <td>Potato</td>
+            <td>Chowmine</td>
+            <td>Black curret</td>
+        </tr>
+
+        <tr>
+            <td>Banana</td>
+            <td>Capcicum</td>
+            <td>Bhel</td>
+            <td>Americano Nuts</td>
+        </tr>
+    </table>
+
+    <h1><em>Merging Rows and Columns of Food Table</em></h1>
+    <table border="4" cellpadding="20" cellspacing="10" align="center" width="50%" bgcolor="blue">
+        <tr> 
+            <th bgcolor="cyan"> Fruits </th>
+            <th bgcolor="cyan"> Vegies </th>
+            <th bgcolor="cyan"> Street Food </th>
+            <th bgcolor="cyan"> Ice-Cream </th>
+        </tr>
+
+        <tr>
+            <td bgcolor="yellow">Mango</td>
+            <td bgcolor="yellow">Tomato</td>
+            <td bgcolor="yellow">Momos</td>
+            <td bgcolor="yellow">Gulkand</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="yellow">Kiwi</td>
+            <td colspan="3" bgcolor="yellow">Gupchup</td>
+            <!-- <td>Gupchup</td> -->
+            <!-- <td>Gupchup</td> -->
+        </tr>
+
+        <tr>
+            <td bgcolor="yellow">Apple</td>
+            <td bgcolor="yellow">Potato</td>
+            <td rowspan="2" bgcolor="yellow">Chowmine</td>
+            <td bgcolor="yellow">Black curret</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="yellow">Banana</td>
+            <td bgcolor="yellow">Capcicum</td>
+            <!-- <td>Chowmine</td> -->
+            <td bgcolor="yellow">Americano Nuts</td>
+        </tr>
+    </table>
+
+    <!--  -->
+
+</body>
+</html>
+
+
+<!-- for audio -->
+    <!-- have <audio tag> -->
